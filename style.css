@@ -1,0 +1,94 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Poppins;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.856)), to(rgba(0, 0, 0, 0.308)));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.308));
+}
+
+body section {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60vh;
+}
+
+body section .navlink {
+  padding-top: 2em;
+  height: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-column-gap: 1em;
+          column-gap: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section .navlink .contact ul {
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  left: -100em;
+}
+
+body section .navlink .contact:hover ul {
+  left: -4.5em;
+}
+
+body section .navlink li {
+  position: relative;
+}
+
+body section .navlink li a {
+  border-radius: 45px;
+  text-transform: uppercase;
+  background: dodgerblue;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1em 2em;
+}
+
+body section .navlink li ul {
+  height: 15em;
+  top: 1.9em;
+  width: 20em;
+  position: absolute;
+  left: -4.5em;
+  text-decoration: none;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 2.3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0%;
+  margin: 0%;
+}
+/*# sourceMappingURL=style.css.map */
