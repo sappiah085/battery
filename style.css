@@ -12,7 +12,7 @@ body {
 }
 
 body section {
-  width: 40%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
